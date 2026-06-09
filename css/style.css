@@ -22,11 +22,31 @@ body {
   flex-wrap: wrap;
 }
 
-.logo {
-  font-weight: bold;
-  font-size: 18px;
+header {
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+}
+
+.logo span {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
 nav {
   display: flex;
   flex-wrap: wrap;
